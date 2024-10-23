@@ -1,0 +1,2 @@
+var t=document.querySelector(".wall"),e=document.querySelector(".spider");t&&e?t.addEventListener("click",function(n){var i=t.getBoundingClientRect(),l=e.clientHeight/2,c=e.clientWidth/2,o=n.clientY-i.top-t.clientTop-l,a=n.clientX-i.left-t.clientLeft-c;o=Math.max(0,Math.min(o,t.clientHeight-e.clientHeight)),a=Math.max(0,Math.min(a,t.clientWidth-e.clientWidth)),e.style.top="".concat(o,"px"),e.style.left="".concat(a,"px")}):console.error("Wall or spider element not found!");
+//# sourceMappingURL=index.61204bab.js.map
