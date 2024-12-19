@@ -1,24 +1,26 @@
-### Task: Move the spider
+# Move the spider
 
-Move the spider to the cursor on click.
+### Description
 
-**Requirements:**
+- Moveв the spider to the cursor on click
 
-- The spider center should come exactly under the pointer on click (without crossing the wall edge).
-- The spider can not cross wall boundaries.
-- When the page is scrolled, nothing should break.
+### Stack
 
-**Notes:**
+- HTML (BEM)
+- CSS
+- JS
 
-- The code should work with spider and walls of any sizes, do not use hardcoded sizes values.
-- Use properties event.clientX/event.clientY to get click coordinates.
-- You can modify only `src/scripts/main.js` file.
+### Tools
 
+- ESlint
+- Prettier
+- Cypress
+- Mochawesome
+- Parcel
 
-### Gif of result
-![](example/example.gif)
+### Demo links
 
+- [Demo](https://AndriiZakharenko.github.io/move-spider/)
 
-## Demo Links
-
-- [DEMO LINK](https://AndriiZakharenko.github.io/js_task-move-spider-DOM/)
+### Reference Image
+<img src="example/example.gif" alt="reference image" width="400px" />
