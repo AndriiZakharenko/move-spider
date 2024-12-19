@@ -2,7 +2,7 @@
 
 ### Description
 
-- Moveв the spider to the cursor on click
+- Moved the spider to the cursor on click
 
 ### Stack
 
